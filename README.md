@@ -20,12 +20,12 @@ MQTT Broker: Handles message delivery between publisher and subscriber.
 ESP32 Subscriber: Controls the brightness of lights based on received messages.
 
 **Hardware Requirements**
-2 x ESP32 boards
-3 x Push Buttons
-3 x LEDs or Light Bulbs (PWM-compatible for brightness control)
-Resistors (as needed for LED and button connections)
-Laptop with MQTT Broker (e.g., Mosquitto)
-Breadboard and Jumper Wires
+- 2 x ESP32 boards
+- 3 x Push Buttons
+- 3 x LEDs or Light Bulbs (PWM-compatible for brightness control)
+- Resistors (as needed for LED and button connections)
+- Laptop with MQTT Broker
+- Breadboard and Jumper Wires
 
 **Software Implementation**
 The system consists of two main parts:
