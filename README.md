@@ -24,9 +24,9 @@ This design allows for seamless integration into IoT ecosystems, offering an int
 
 
 The system architecture involves:
-1. ESP32 Publisher: Reads button states and sends corresponding messages to the MQTT broker.
-2. MQTT Broker: Handles message delivery between publisher and subscriber.
-3. ESP32 Subscriber: Controls the brightness of lights based on received messages.
+- ESP32 Publisher: Reads button states and sends corresponding messages to the MQTT broker.
+- MQTT Broker: Handles message delivery between publisher and subscriber.
+- ESP32 Subscriber: Controls the brightness of lights based on received messages.
 
 **Hardware Requirements**
 - 2 x ESP32 boards
@@ -37,8 +37,9 @@ The system architecture involves:
 - Breadboard and Jumper Wires
 
 **Software Implementation**
+
 The system consists of two main parts:
-1. Publisher (Button Input)
+- Publisher (Button Input)
 The publisher reads the state of each push button, determines the light's next state (50%, 100%, or off), and sends this information as a JSON message via MQTT.
-2. Subscriber (Light Control)
+- Subscriber (Light Control)
 The subscriber receives JSON messages from the MQTT broker, parses the data, and adjusts the brightness of the corresponding light using PWM.
