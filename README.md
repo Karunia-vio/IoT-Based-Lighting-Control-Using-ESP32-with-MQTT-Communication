@@ -18,7 +18,7 @@ Communication between two ESP32 devices is facilitated using the MQTT protocol, 
 
 
 
-![Project Image](projek%201.drawio.png)
+![Project Image](images/led-mqtt-button.png)
 
 
 
