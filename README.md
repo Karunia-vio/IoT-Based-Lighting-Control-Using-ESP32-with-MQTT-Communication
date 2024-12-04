@@ -14,7 +14,8 @@ This design allows for seamless integration into IoT ecosystems, offering an int
 - User-Friendly Interface: Physical push buttons for input, with visual feedback through lights.
 
 **System Architecture**
-![projek 1.drawio](projek 1.drawio.png)
+![Project Image](images/projek%201.drawio.png)
+
 The system architecture involves:
 ESP32 Publisher: Reads button states and sends corresponding messages to the MQTT broker.
 MQTT Broker: Handles message delivery between publisher and subscriber.
