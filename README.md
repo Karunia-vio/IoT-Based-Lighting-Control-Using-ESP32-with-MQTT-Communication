@@ -4,6 +4,7 @@ This project implements an IoT-based lighting control system using ESP32 microco
 - 50% brightness
 - 100% brightness
 - off
+
 Communication between two ESP32 devices is facilitated using the MQTT protocol, ensuring efficient and reliable data transfer.
 
 **Features**
