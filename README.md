@@ -1,4 +1,4 @@
-# Lighting Control Using ESP32 with MQTT Communication
+# Lighting Control Using ESP32 with MQTT Protocol and JSON
 
 This project implements an IoT-based lighting control system using ESP32 microcontrollers, enabling remote management of individual lights, each controlled by a dedicated push button. Each light supports three states: 
 - 50% brightness
@@ -30,7 +30,9 @@ The system architecture involves:
 - ESP32 Subscriber: Controls the brightness of lights based on received messages.
 
 **Installation and Setup**
+
 **1. Prerequisites**
+
 Hardware:
 - 2 x ESP32 boards
 - 3 x Push Buttons
@@ -71,3 +73,6 @@ JSON library for Arduino (ArduinoJson)
 
 **Result**
 ![Project Image](images/result.jpg)
+
+
+![Project Image](images/mqtt.jpg)
