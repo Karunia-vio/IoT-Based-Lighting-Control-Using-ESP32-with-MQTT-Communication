@@ -2,8 +2,8 @@
 #include <PubSubClient.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "DIDI";
-const char* password = "1707197711";
+const char* ssid = "Your_SSID";
+const char* password = "Your_PASSWORD";
 const char* mqtt_server = "broker.hivemq.com";
 
 WiFiClient espClient;
