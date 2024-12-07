@@ -2,8 +2,8 @@
 #include <PubSubClient.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "DIDI";
-const char* password = "1707197711";
+const char* ssid = "Your_SSID";
+const char* password = "Your_PASSWORD";
 const char* mqtt_server = "broker.hivemq.com";
 
 WiFiClient espClient;
@@ -45,22 +45,18 @@ void loop() {
 
   for (int i = 0; i < NUM_LAMPS; i++) {
     int reading = digitalRead(BUTTON_PIN[i]);
-
     if (reading != lastButtonState[i]) {
-      
-
-
 
       if (reading == LOW) {
         buttonPressCounter[i]++; 
 
         int brightness = 0;
         if (buttonPressCounter[i] == 1) {
-          brightness = 0;
+          brightness = 50;
         } else if (buttonPressCounter[i] == 2) {
           brightness = 100;
         } else if (buttonPressCounter[i] == 3) {
-          brightness = 50;
+          brightness = 0;
           buttonPressCounter[i] = 0; 
         }
 
