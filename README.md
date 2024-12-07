@@ -44,3 +44,6 @@ The system consists of two main parts:
 The publisher reads the state of each push button, determines the light's next state (50%, 100%, or off), and sends this information as a JSON message via MQTT.
 - Subscriber (Light Control)
 The subscriber receives JSON messages from the MQTT broker, parses the data, and adjusts the brightness of the corresponding light using PWM.
+
+**Result**
+![Project Image](images/result.jpg)
