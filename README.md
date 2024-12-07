@@ -45,7 +45,7 @@ Software:
 - Arduino IDE with ESP32 board support
 - MQTT Broker (HiveMQ)
 - MQTT Client Library (PubSubClient)
-JSON library for Arduino (ArduinoJson)
+- JSON library for Arduino (ArduinoJson)
 
 **2. Setting Up the ESP32**
 - Install the ESP32 board in Arduino IDE if not already installed.
