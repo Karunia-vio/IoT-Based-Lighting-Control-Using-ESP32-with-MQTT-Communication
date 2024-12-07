@@ -68,8 +68,7 @@ JSON library for Arduino (ArduinoJson)
   
 **How to Control the Lights**
 1. Press the button on ESP32 (Publisher) to send an MQTT message to ESP32 (Subscriber), controlling the LED's brightness or turning it off.
-2. JSON Message Format: The message sent to lamp_control topic will be in JSON format:
-   
+2. JSON Message Format: The message sent to lamp_control topic will be in JSON format:   
 ```{"lamp":1,"brightness":50}```
 
 **Result**
