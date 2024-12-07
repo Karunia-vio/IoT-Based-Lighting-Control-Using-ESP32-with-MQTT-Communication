@@ -38,7 +38,7 @@ Hardware:
 - 3 x Push Buttons
 - 3 x LEDs or Light Bulbs (PWM-compatible for brightness control)
 - Resistors (as needed for LED and button connections)
-- Laptop with MQTT Broker
+- Laptop
 - Breadboard and Jumper Wires
   
 Software:
